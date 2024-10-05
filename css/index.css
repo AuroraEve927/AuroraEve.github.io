@@ -4852,7 +4852,30 @@ h1.page-title + .tag-cloud-list {
   text-decoration: none !important;
 }
 .icon-V {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -o-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
   padding: 5px;
+  width: 50px; /* 确保宽度足够 */
+  height: 50px; /* 确保高度足够 */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; /* 确保内边距不会影响布局 */
 }
 @-moz-keyframes CuteenPlanetMove {
   0% {
