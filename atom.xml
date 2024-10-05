@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AuroraEve的小屋🍉</title>
+  <icon>https://blog.auroraeve.com/icon.png</icon>
+  <subtitle>别赶路，去感受路。</subtitle>
+  <link href="https://blog.auroraeve.com/atom.xml" rel="self"/>
+  
+  <link href="https://blog.auroraeve.com/"/>
+  <updated>2024-10-05T14:10:00.494Z</updated>
+  <id>https://blog.auroraeve.com/</id>
+  
+  <author>
+    <name>AuroraEve</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo配置总结</title>
+    <link href="https://blog.auroraeve.com/2024/10/05/hexo%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/"/>
+    <id>https://blog.auroraeve.com/2024/10/05/hexo%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/</id>
+    <published>2024-10-05T03:29:43.000Z</published>
+    <updated>2024-10-05T14:10:00.494Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;这里总结了一些搭建博客时关于配置的问题。&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>分享几个论坛以及2个电子笔记软件</title>
+    <link href="https://blog.auroraeve.com/2024/10/05/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E8%AE%BA%E5%9D%9B%E4%BB%A5%E5%8F%8A2%E4%B8%AA%E7%94%B5%E5%AD%90%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://blog.auroraeve.com/2024/10/05/%E5%88%86%E4%BA%AB%E5%87%A0%E4%B8%AA%E8%AE%BA%E5%9D%9B%E4%BB%A5%E5%8F%8A2%E4%B8%AA%E7%94%B5%E5%AD%90%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6/</id>
+    <published>2024-10-05T02:19:12.000Z</published>
+    <updated>2024-10-05T03:39:54.529Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;昨天下午，在赵🌦️🗡️同学的推荐下加入了&lt;a href=&quot;https://www.v2ex.com/&quot;&gt;V2EX&lt;/a&gt;、&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>添加音乐播放器</title>
+    <link href="https://blog.auroraeve.com/2024/09/15/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/"/>
+    <id>https://blog.auroraeve.com/2024/09/15/%E6%B7%BB%E5%8A%A0%E9%9F%B3%E4%B9%90%E6%92%AD%E6%94%BE%E5%99%A8/</id>
+    <published>2024-09-15T05:14:52.000Z</published>
+    <updated>2024-09-15T07:43:46.495Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;添加音乐播放器&quot;&gt;&lt;a href=&quot;#添加音乐播放器&quot; class=&quot;headerlink&quot; title=&quot;添加音乐播放器&quot;&gt;&lt;/a&gt;添加音乐播放器&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;今天终于添加了一直心心念念的音乐播放器功能，参考的是&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello,AfterEffects</title>
+    <link href="https://blog.auroraeve.com/2024/07/11/Hello-AfterEffects/"/>
+    <id>https://blog.auroraeve.com/2024/07/11/Hello-AfterEffects/</id>
+    <published>2024-07-11T08:08:49.000Z</published>
+    <updated>2024-07-17T16:54:36.183Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Hello-After-Effects&quot;&gt;&lt;a href=&quot;#Hello-After-Effects&quot; class=&quot;headerlink&quot; title=&quot;Hello! After Effects&quot;&gt;&lt;/a&gt;Hello! After</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>生僻的成语</title>
+    <link href="https://blog.auroraeve.com/2024/07/08/%E7%94%9F%E5%83%BB%E7%9A%84%E6%88%90%E8%AF%AD/"/>
+    <id>https://blog.auroraeve.com/2024/07/08/%E7%94%9F%E5%83%BB%E7%9A%84%E6%88%90%E8%AF%AD/</id>
+    <published>2024-07-08T07:42:27.000Z</published>
+    <updated>2024-07-08T07:44:06.181Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;生僻的成语&quot;&gt;&lt;a href=&quot;#生僻的成语&quot; class=&quot;headerlink&quot; title=&quot;生僻的成语&quot;&gt;&lt;/a&gt;生僻的成语&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;不置可否：（读作bù zhì kě</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello,PowerPoint</title>
+    <link href="https://blog.auroraeve.com/2024/07/08/Hello-PowerPoint/"/>
+    <id>https://blog.auroraeve.com/2024/07/08/Hello-PowerPoint/</id>
+    <published>2024-07-08T06:38:12.000Z</published>
+    <updated>2024-07-11T07:51:43.692Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Hello-PowerPoint&quot;&gt;&lt;a href=&quot;#Hello-PowerPoint&quot; class=&quot;headerlink&quot; title=&quot;Hello, PowerPoint&quot;&gt;&lt;/a&gt;Hello,</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>重生吧,我的电脑</title>
+    <link href="https://blog.auroraeve.com/2024/06/28/%E9%87%8D%E7%94%9F%E5%90%A7-%E6%88%91%E7%9A%84%E7%94%B5%E8%84%91/"/>
+    <id>https://blog.auroraeve.com/2024/06/28/%E9%87%8D%E7%94%9F%E5%90%A7-%E6%88%91%E7%9A%84%E7%94%B5%E8%84%91/</id>
+    <published>2024-06-27T17:02:26.000Z</published>
+    <updated>2024-07-22T09:40:11.359Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;近日碰到的一些问题&quot;&gt;&lt;a href=&quot;#近日碰到的一些问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>你好,达芬奇</title>
+    <link href="https://blog.auroraeve.com/2024/06/23/%E4%BD%A0%E5%A5%BD-%E8%BE%BE%E8%8A%AC%E5%A5%87/"/>
+    <id>https://blog.auroraeve.com/2024/06/23/%E4%BD%A0%E5%A5%BD-%E8%BE%BE%E8%8A%AC%E5%A5%87/</id>
+    <published>2024-06-23T15:54:54.000Z</published>
+    <updated>2024-07-08T14:16:44.656Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;你好，达芬奇&quot;&gt;&lt;a href=&quot;#你好，达芬奇&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今日小记</title>
+    <link href="https://blog.auroraeve.com/2024/06/18/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/"/>
+    <id>https://blog.auroraeve.com/2024/06/18/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B0/</id>
+    <published>2024-06-18T05:22:36.000Z</published>
+    <updated>2024-06-27T16:39:14.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日小记&quot;&gt;&lt;a href=&quot;#今日小记&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>今日一句</title>
+    <link href="https://blog.auroraeve.com/2024/06/17/%E4%BB%8A%E6%97%A5%E4%B8%80%E5%8F%A5/"/>
+    <id>https://blog.auroraeve.com/2024/06/17/%E4%BB%8A%E6%97%A5%E4%B8%80%E5%8F%A5/</id>
+    <published>2024-06-17T04:54:04.000Z</published>
+    <updated>2024-06-27T16:39:14.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;今日一句&quot;&gt;&lt;a href=&quot;#今日一句&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>优雅地在word中插入代码块</title>
+    <link href="https://blog.auroraeve.com/2024/06/12/%E4%BC%98%E9%9B%85%E5%9C%B0%E5%9C%A8word%E4%B8%AD%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81%E5%9D%97/"/>
+    <id>https://blog.auroraeve.com/2024/06/12/%E4%BC%98%E9%9B%85%E5%9C%B0%E5%9C%A8word%E4%B8%AD%E6%8F%92%E5%85%A5%E4%BB%A3%E7%A0%81%E5%9D%97/</id>
+    <published>2024-06-12T10:29:46.000Z</published>
+    <updated>2024-06-27T16:39:14.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;优雅地在word中插入代码块&quot;&gt;&lt;a href=&quot;#优雅地在word中插入代码块&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://blog.auroraeve.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="代码块" scheme="https://blog.auroraeve.com/tags/%E4%BB%A3%E7%A0%81%E5%9D%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>费米悖论</title>
+    <link href="https://blog.auroraeve.com/2024/06/01/%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA/"/>
+    <id>https://blog.auroraeve.com/2024/06/01/%E8%B4%B9%E7%B1%B3%E6%82%96%E8%AE%BA/</id>
+    <published>2024-06-01T13:57:57.000Z</published>
+    <updated>2024-06-27T16:39:15.452Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>(六一特辑)快来回顾一下昔日看过的动画片吧</title>
+    <link href="https://blog.auroraeve.com/2024/06/01/%E5%85%AD%E4%B8%80%E7%89%B9%E8%BE%91-%E5%BF%AB%E6%9D%A5%E5%9B%9E%E9%A1%BE%E4%B8%80%E4%B8%8B%E6%98%94%E6%97%A5%E7%9C%8B%E8%BF%87%E7%9A%84%E5%8A%A8%E7%94%BB%E7%89%87%E5%90%A7/"/>
+    <id>https://blog.auroraeve.com/2024/06/01/%E5%85%AD%E4%B8%80%E7%89%B9%E8%BE%91-%E5%BF%AB%E6%9D%A5%E5%9B%9E%E9%A1%BE%E4%B8%80%E4%B8%8B%E6%98%94%E6%97%A5%E7%9C%8B%E8%BF%87%E7%9A%84%E5%8A%A8%E7%94%BB%E7%89%87%E5%90%A7/</id>
+    <published>2024-06-01T05:24:35.000Z</published>
+    <updated>2024-10-05T03:39:09.604Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;引子&quot;&gt;&lt;a href=&quot;#引子&quot; class=&quot;headerlink&quot; title=&quot;引子&quot;&gt;&lt;/a&gt;引子&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;今天中午吃饭的时候看到了一条蜻蜓队长的评论。&lt;br&gt;第一  绝对不意气用事&lt;br&gt;第二</summary>
+        
+      
+    
+    
+    
+    <category term="特辑" scheme="https://blog.auroraeve.com/categories/%E7%89%B9%E8%BE%91/"/>
+    
+    
+    <category term="六一儿童节" scheme="https://blog.auroraeve.com/tags/%E5%85%AD%E4%B8%80%E5%84%BF%E7%AB%A5%E8%8A%82/"/>
+    
+    <category term="动画片" scheme="https://blog.auroraeve.com/tags/%E5%8A%A8%E7%94%BB%E7%89%87/"/>
+    
+    <category term="特辑" scheme="https://blog.auroraeve.com/tags/%E7%89%B9%E8%BE%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>让真理建构的世界充满正义的风</title>
+    <link href="https://blog.auroraeve.com/2024/05/31/%E8%AE%A9%E7%9C%9F%E7%90%86%E5%BB%BA%E6%9E%84%E7%9A%84%E4%B8%96%E7%95%8C%E5%85%85%E6%BB%A1%E6%AD%A3%E4%B9%89%E7%9A%84%E9%A3%8E/"/>
+    <id>https://blog.auroraeve.com/2024/05/31/%E8%AE%A9%E7%9C%9F%E7%90%86%E5%BB%BA%E6%9E%84%E7%9A%84%E4%B8%96%E7%95%8C%E5%85%85%E6%BB%A1%E6%AD%A3%E4%B9%89%E7%9A%84%E9%A3%8E/</id>
+    <published>2024-05-31T05:18:09.000Z</published>
+    <updated>2024-06-27T16:39:15.452Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;让真理建构的世界充满正义的风&quot;&gt;&lt;a href=&quot;#让真理建构的世界充满正义的风&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>什么是正义</title>
+    <link href="https://blog.auroraeve.com/2024/05/30/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AD%A3%E4%B9%89/"/>
+    <id>https://blog.auroraeve.com/2024/05/30/%E4%BB%80%E4%B9%88%E6%98%AF%E6%AD%A3%E4%B9%89/</id>
+    <published>2024-05-30T12:34:55.000Z</published>
+    <updated>2024-06-27T16:39:14.355Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;什么是正义&quot;&gt;&lt;a href=&quot;#什么是正义&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>水一贴</title>
+    <link href="https://blog.auroraeve.com/2024/05/29/%E6%B0%B4%E4%B8%80%E8%B4%B4/"/>
+    <id>https://blog.auroraeve.com/2024/05/29/%E6%B0%B4%E4%B8%80%E8%B4%B4/</id>
+    <published>2024-05-29T00:19:59.000Z</published>
+    <updated>2024-06-27T16:39:15.452Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;WOP（水一贴）&quot;&gt;&lt;a href=&quot;#WOP（水一贴）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>梦隙碎笔</title>
+    <link href="https://blog.auroraeve.com/2024/05/27/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/"/>
+    <id>https://blog.auroraeve.com/2024/05/27/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/</id>
+    <published>2024-05-27T09:50:49.000Z</published>
+    <updated>2024-05-27T09:50:49.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;梦隙碎笔&quot;&gt;&lt;a href=&quot;#梦隙碎笔&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="梦隙碎笔" scheme="https://blog.auroraeve.com/categories/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/"/>
+    
+    
+    <category term="梦隙碎笔" scheme="https://blog.auroraeve.com/tags/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何入门哲学</title>
+    <link href="https://blog.auroraeve.com/2024/05/26/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E5%93%B2%E5%AD%A6/"/>
+    <id>https://blog.auroraeve.com/2024/05/26/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E5%93%B2%E5%AD%A6/</id>
+    <published>2024-05-26T15:08:06.000Z</published>
+    <updated>2024-05-26T15:08:06.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;如何入门哲学&quot;&gt;&lt;a href=&quot;#如何入门哲学&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="哲学" scheme="https://blog.auroraeve.com/categories/%E5%93%B2%E5%AD%A6/"/>
+    
+    <category term="教程" scheme="https://blog.auroraeve.com/categories/%E5%93%B2%E5%AD%A6/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="哲学" scheme="https://blog.auroraeve.com/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+    <category term="教程" scheme="https://blog.auroraeve.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小众的生产力软件</title>
+    <link href="https://blog.auroraeve.com/2024/05/23/%E5%B0%8F%E4%BC%97%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://blog.auroraeve.com/2024/05/23/%E5%B0%8F%E4%BC%97%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E8%BD%AF%E4%BB%B6/</id>
+    <published>2024-05-23T13:48:00.000Z</published>
+    <updated>2024-10-05T03:39:47.686Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、日历清单（PC）&quot;&gt;&lt;a href=&quot;#一、日历清单（PC）&quot; class=&quot;headerlink&quot; title=&quot;一、日历清单（PC）&quot;&gt;&lt;/a&gt;一、&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="软件分享" scheme="https://blog.auroraeve.com/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
+    
+    
+    <category term="生产力" scheme="https://blog.auroraeve.com/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>春江花月夜</title>
+    <link href="https://blog.auroraeve.com/2024/05/22/%E6%98%A5%E6%B1%9F%E8%8A%B1%E6%9C%88%E5%A4%9C/"/>
+    <id>https://blog.auroraeve.com/2024/05/22/%E6%98%A5%E6%B1%9F%E8%8A%B1%E6%9C%88%E5%A4%9C/</id>
+    <published>2024-05-22T11:18:59.000Z</published>
+    <updated>2024-10-05T03:34:31.791Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;春江花月夜&quot;&gt;&lt;a href=&quot;#春江花月夜&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="诗词" scheme="https://blog.auroraeve.com/categories/%E8%AF%97%E8%AF%8D/"/>
+    
+    
+    <category term="张若虚" scheme="https://blog.auroraeve.com/tags/%E5%BC%A0%E8%8B%A5%E8%99%9A/"/>
+    
+  </entry>
+  
+</feed>
