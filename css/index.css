@@ -1487,6 +1487,7 @@ canvas:not(#ribbon-canvas),
   --zoom-bg: #fff;
   --mark-bg: rgba(0,0,0,0.3);
   --anzhiyu-card-bg: #fff;
+  --anzhiyu-white: #fff;
 }
 body {
   position: relative;
