@@ -6,7 +6,7 @@
   <link href="https://blog.auroraeve.com/atom.xml" rel="self"/>
   
   <link href="https://blog.auroraeve.com/"/>
-  <updated>2024-10-06T08:02:57.005Z</updated>
+  <updated>2024-10-11T02:37:53.568Z</updated>
   <id>https://blog.auroraeve.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>qt学习笔记</title>
+    <link href="https://blog.auroraeve.com/2024/10/11/qt%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://blog.auroraeve.com/2024/10/11/qt%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2024-10-11T02:31:10.000Z</published>
+    <updated>2024-10-11T02:37:53.568Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="QT学习笔记"><a href="#QT学习笔记" class="headerlink" title="QT学习笔记"></a>QT学习笔记</h1><p><a href="https://www.bilibili.com/video/BV1Vt4y1n7us?spm_id_from=333.788.videopod.sections&vd_source=851eb39e369398dfd488218128ad07b6">1.VS下开发Qt应用环境搭建_哔哩哔哩_bilibili</a></p><h1 id="一些约定"><a href="#一些约定" class="headerlink" title="一些约定"></a>一些约定</h1><p>项目——属性——常规——输出目录：..\Bin\</p><p>​——调试——工作目录：..\Bin\</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;QT学习笔记&quot;&gt;&lt;a href=&quot;#QT学习笔记&quot; class=&quot;headerlink&quot; title=&quot;QT学习笔记&quot;&gt;&lt;/a&gt;QT学习笔记&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>今日小记2</title>
@@ -94,7 +117,7 @@
     <published>2024-09-15T05:14:52.000Z</published>
     <updated>2024-10-10T16:38:43.512Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="添加音乐播放器"><a href="#添加音乐播放器" class="headerlink" title="添加音乐播放器"></a>添加音乐播放器</h1><blockquote><p>今天终于添加了一直心心念念的音乐播放器功能，参考的是<a href="https://polar-bear.eu.org/"><strong>polar-bear～Blog</strong></a>的一篇帖子<a href="https://polar-bear.eu.org/2023/07/21/hexo-tag-aplayer-cha-jian/">Hexo添加全局吸底Aplayer音乐播放器教程 | polar-bear～Blog</a>以及Butterfly官方文档<a href="https://butterfly.js.org/posts/4073eda/">Butterfly 安裝文檔(六) 進階教程 | Butterfly</a></p></blockquote><p>他的这篇文章写的非常好！！！</p><table><thead><tr><th>序号</th><th>名称</th></tr></thead><tbody><tr><td>1</td><td>Fade</td></tr><tr><td>2</td><td>Nevada</td></tr><tr><td>3</td><td>。。。</td></tr></tbody></table><p>懒得写了</p><p>今天突发奇想要做一个这个是因为突然又听到了Minecraft这首歌，这首歌一旦响起就会生发出无数的回忆。</p><p>但是这个板块建的还是有些问题比如无法播放vip歌曲，如果想把他们添加上去的话需要上传音乐源文件，但是sq无损音质的文件过大一首歌50mb，100首就得5个G了，这样子的话网页源文件过大不便于管理。所以要成为完全体，还是得建立一个音乐的数据库，之后再说吧，先咕咕了。</p><p>又试了下网易云音乐是可以正常播放的，但是QQ音乐不行。我真服了你了QQYY</p><h1 id="遇到的一些问题"><a href="#遇到的一些问题" class="headerlink" title="遇到的一些问题"></a>遇到的一些问题</h1><h2 id="一、npm换源"><a href="#一、npm换源" class="headerlink" title="一、npm换源"></a>一、npm换源</h2><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>运行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure><p>的过程中会卡住，进程一直无法继续。</p><hr><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>由于我之前一直用的梯子，所以没有换过npm install的源。换成国内的镜像源就可以，但是之前的taobao源以及失效，故运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br></pre></td></tr></table></figure><p>换源的具体流程可参考：<a href="https://blog.csdn.net/weixin_45610943/article/details/138140115">切换npm源的几种方法_npm换源-CSDN博客</a></p>    <div id="aplayer-UcKDHshX" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="12597348540" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"></div><p>#425AEF</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="添加音乐播放器"><a href="#添加音乐播放器" class="headerlink" title="添加音乐播放器"></a>添加音乐播放器</h1><blockquote><p>今天终于添加了一直心心念念的音乐播放器功能，参考的是<a href="https://polar-bear.eu.org/"><strong>polar-bear～Blog</strong></a>的一篇帖子<a href="https://polar-bear.eu.org/2023/07/21/hexo-tag-aplayer-cha-jian/">Hexo添加全局吸底Aplayer音乐播放器教程 | polar-bear～Blog</a>以及Butterfly官方文档<a href="https://butterfly.js.org/posts/4073eda/">Butterfly 安裝文檔(六) 進階教程 | Butterfly</a></p></blockquote><p>他的这篇文章写的非常好！！！</p><table><thead><tr><th>序号</th><th>名称</th></tr></thead><tbody><tr><td>1</td><td>Fade</td></tr><tr><td>2</td><td>Nevada</td></tr><tr><td>3</td><td>。。。</td></tr></tbody></table><p>懒得写了</p><p>今天突发奇想要做一个这个是因为突然又听到了Minecraft这首歌，这首歌一旦响起就会生发出无数的回忆。</p><p>但是这个板块建的还是有些问题比如无法播放vip歌曲，如果想把他们添加上去的话需要上传音乐源文件，但是sq无损音质的文件过大一首歌50mb，100首就得5个G了，这样子的话网页源文件过大不便于管理。所以要成为完全体，还是得建立一个音乐的数据库，之后再说吧，先咕咕了。</p><p>又试了下网易云音乐是可以正常播放的，但是QQ音乐不行。我真服了你了QQYY</p><h1 id="遇到的一些问题"><a href="#遇到的一些问题" class="headerlink" title="遇到的一些问题"></a>遇到的一些问题</h1><h2 id="一、npm换源"><a href="#一、npm换源" class="headerlink" title="一、npm换源"></a>一、npm换源</h2><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>运行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure><p>的过程中会卡住，进程一直无法继续。</p><hr><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>由于我之前一直用的梯子，所以没有换过npm install的源。换成国内的镜像源就可以，但是之前的taobao源以及失效，故运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br></pre></td></tr></table></figure><p>换源的具体流程可参考：<a href="https://blog.csdn.net/weixin_45610943/article/details/138140115">切换npm源的几种方法_npm换源-CSDN博客</a></p>    <div id="aplayer-zVtrcnID" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="12597348540" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"></div><p>#425AEF</p>]]></content>
     
     
       
@@ -469,33 +492,6 @@
     <category term="哲学" scheme="https://blog.auroraeve.com/tags/%E5%93%B2%E5%AD%A6/"/>
     
     <category term="教程" scheme="https://blog.auroraeve.com/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小众的生产力软件</title>
-    <link href="https://blog.auroraeve.com/2024/05/23/%E5%B0%8F%E4%BC%97%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E8%BD%AF%E4%BB%B6/"/>
-    <id>https://blog.auroraeve.com/2024/05/23/%E5%B0%8F%E4%BC%97%E7%9A%84%E7%94%9F%E4%BA%A7%E5%8A%9B%E8%BD%AF%E4%BB%B6/</id>
-    <published>2024-05-23T13:48:00.000Z</published>
-    <updated>2024-10-05T03:39:47.686Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="一、日历清单（PC）"><a href="#一、日历清单（PC）" class="headerlink" title="一、日历清单（PC）"></a>一、<a href="https://www.xdiarys.com/">日历清单</a>（PC）</h1><p>网址：<a href="https://www.xdiarys.com/">https://www.xdiarys.com/</a></p><blockquote><p>可以将DDL等日常事件编辑到清单里，方便规划日程，有条理的完成任务，可以有效避免拖延和忘记。</p></blockquote><p><img src="https://bu.dusays.com/2024/05/23/664f4b2345561.png" alt="image-20240523215652504"></p><p>可以在示例里面更改字体和颜色。如下是我的设置</p><p><img src="https://bu.dusays.com/2024/05/23/664f4d245b352.png" alt="image-20240523220525835"></p><h1 id="截图软件（Snipaste-PixPin）"><a href="#截图软件（Snipaste-PixPin）" class="headerlink" title="截图软件（Snipaste &amp;&amp; PixPin）"></a>截图软件（Snipaste &amp;&amp; PixPin）</h1><blockquote><p>两款软件最大的区别就在于OCR文字识别了，过去的话Snipaste绝对是首选，但遗憾的是没有OCR识别功能，导致用到识别的时候就得打开微信，非常的不方便。</p><p>现在首推PixPin现在也是才刚转过来，才用了不几天。</p></blockquote><h2 id="二、PixPin"><a href="#二、PixPin" class="headerlink" title="二、PixPin"></a>二、PixPin</h2><p>网址：<a href="https://pixpinapp.com/">https://pixpinapp.com/</a></p><p><img src="https://bu.dusays.com/2024/05/23/664f511c8b9e6.png" alt="image-20240523222222789"></p><h2 id="三、Snipaste"><a href="#三、Snipaste" class="headerlink" title="三、Snipaste"></a>三、Snipaste</h2><p>网址：<a href="https://zh.snipaste.com/">https://zh.snipaste.com/</a></p><p><img src="https://bu.dusays.com/2024/05/23/664f51822fb92.png" alt="image-20240523222404275"></p><h1 id="四、HoneyView"><a href="#四、HoneyView" class="headerlink" title="四、HoneyView"></a>四、HoneyView</h1><blockquote><p>一款非常好用的照片查看器。微软自带的就是一坨。</p></blockquote><p>网址：<a href="https://www.bandisoft.com/honeyview/">https://www.bandisoft.com/honeyview/</a></p><p><img src="https://bu.dusays.com/2024/05/23/664f547374836.png" alt="image-20240523223635339"></p><h1 id="四、Typora（PC）（需付费，89CNY）"><a href="#四、Typora（PC）（需付费，89CNY）" class="headerlink" title="四、Typora（PC）（需付费，89CNY）"></a>四、Typora（PC）（需付费，89CNY）</h1><p>网址：<a href="https://typora.io/">https://typora.io/</a></p><blockquote><p>一款高效的markdown编辑器，本文就是用Typora写的，用了之后再也不想打开记事本和word。日常写日记非常方便。</p></blockquote><p><img src="https://bu.dusays.com/2024/05/23/664f559ebb51b.png" alt="image-20240523224137194"></p><p>动图：用PixPin录制的gif。</p><p><img src="https://bu.dusays.com/2024/05/23/664f566ff2320.gif" alt="recording"></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;一、日历清单（PC）&quot;&gt;&lt;a href=&quot;#一、日历清单（PC）&quot; class=&quot;headerlink&quot; title=&quot;一、日历清单（PC）&quot;&gt;&lt;/a&gt;一、&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="软件分享" scheme="https://blog.auroraeve.com/categories/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/"/>
-    
-    
-    <category term="生产力" scheme="https://blog.auroraeve.com/tags/%E7%94%9F%E4%BA%A7%E5%8A%9B/"/>
     
   </entry>
   
