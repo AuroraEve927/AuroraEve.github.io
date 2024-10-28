@@ -6,7 +6,7 @@
   <link href="https://blog.auroraeve.com/atom.xml" rel="self"/>
   
   <link href="https://blog.auroraeve.com/"/>
-  <updated>2024-10-19T07:17:20.501Z</updated>
+  <updated>2024-10-28T06:15:42.101Z</updated>
   <id>https://blog.auroraeve.com/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一些碎碎念</title>
+    <link href="https://blog.auroraeve.com/2024/10/28/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <id>https://blog.auroraeve.com/2024/10/28/%E4%B8%80%E4%BA%9B%E7%A2%8E%E7%A2%8E%E5%BF%B5/</id>
+    <published>2024-10-28T06:13:00.000Z</published>
+    <updated>2024-10-28T06:15:42.101Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>这里记录了一些灵感</p></blockquote><h1 id="一些碎碎念"><a href="#一些碎碎念" class="headerlink" title="一些碎碎念"></a>一些碎碎念</h1><ul><li>这个世界的源头是创新，方法是迭代。<br>物质本身就具有创新的属性，我们只是在发扬它的特性。（20241028）</li></ul>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;这里记录了一些灵感&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;一些碎碎念&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>7日音乐</title>
+    <link href="https://blog.auroraeve.com/2024/10/28/7%E6%97%A5%E9%9F%B3%E4%B9%90/"/>
+    <id>https://blog.auroraeve.com/2024/10/28/7%E6%97%A5%E9%9F%B3%E4%B9%90/</id>
+    <published>2024-10-28T06:05:08.000Z</published>
+    <updated>2024-10-28T06:10:48.607Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>这里会记录一下自己喜欢的音乐，大多数都来源于QQ音乐。<br>记录数据，永恒记忆。</p></blockquote><h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><p>2024.10.28——11.03</p><table><thead><tr><th>1</th><th>我的楼兰</th><th>云朵</th></tr></thead><tbody><tr><td>2</td><td>裂缝中的阳光</td><td>林俊杰</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>摄影知识汇总</title>
@@ -140,7 +189,7 @@
     <published>2024-09-15T05:14:52.000Z</published>
     <updated>2024-10-10T16:38:43.512Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="添加音乐播放器"><a href="#添加音乐播放器" class="headerlink" title="添加音乐播放器"></a>添加音乐播放器</h1><blockquote><p>今天终于添加了一直心心念念的音乐播放器功能，参考的是<a href="https://polar-bear.eu.org/"><strong>polar-bear～Blog</strong></a>的一篇帖子<a href="https://polar-bear.eu.org/2023/07/21/hexo-tag-aplayer-cha-jian/">Hexo添加全局吸底Aplayer音乐播放器教程 | polar-bear～Blog</a>以及Butterfly官方文档<a href="https://butterfly.js.org/posts/4073eda/">Butterfly 安裝文檔(六) 進階教程 | Butterfly</a></p></blockquote><p>他的这篇文章写的非常好！！！</p><table><thead><tr><th>序号</th><th>名称</th></tr></thead><tbody><tr><td>1</td><td>Fade</td></tr><tr><td>2</td><td>Nevada</td></tr><tr><td>3</td><td>。。。</td></tr></tbody></table><p>懒得写了</p><p>今天突发奇想要做一个这个是因为突然又听到了Minecraft这首歌，这首歌一旦响起就会生发出无数的回忆。</p><p>但是这个板块建的还是有些问题比如无法播放vip歌曲，如果想把他们添加上去的话需要上传音乐源文件，但是sq无损音质的文件过大一首歌50mb，100首就得5个G了，这样子的话网页源文件过大不便于管理。所以要成为完全体，还是得建立一个音乐的数据库，之后再说吧，先咕咕了。</p><p>又试了下网易云音乐是可以正常播放的，但是QQ音乐不行。我真服了你了QQYY</p><h1 id="遇到的一些问题"><a href="#遇到的一些问题" class="headerlink" title="遇到的一些问题"></a>遇到的一些问题</h1><h2 id="一、npm换源"><a href="#一、npm换源" class="headerlink" title="一、npm换源"></a>一、npm换源</h2><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>运行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure><p>的过程中会卡住，进程一直无法继续。</p><hr><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>由于我之前一直用的梯子，所以没有换过npm install的源。换成国内的镜像源就可以，但是之前的taobao源以及失效，故运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br></pre></td></tr></table></figure><p>换源的具体流程可参考：<a href="https://blog.csdn.net/weixin_45610943/article/details/138140115">切换npm源的几种方法_npm换源-CSDN博客</a></p>    <div id="aplayer-EzXIRsaV" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="12597348540" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"></div><p>#425AEF</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="添加音乐播放器"><a href="#添加音乐播放器" class="headerlink" title="添加音乐播放器"></a>添加音乐播放器</h1><blockquote><p>今天终于添加了一直心心念念的音乐播放器功能，参考的是<a href="https://polar-bear.eu.org/"><strong>polar-bear～Blog</strong></a>的一篇帖子<a href="https://polar-bear.eu.org/2023/07/21/hexo-tag-aplayer-cha-jian/">Hexo添加全局吸底Aplayer音乐播放器教程 | polar-bear～Blog</a>以及Butterfly官方文档<a href="https://butterfly.js.org/posts/4073eda/">Butterfly 安裝文檔(六) 進階教程 | Butterfly</a></p></blockquote><p>他的这篇文章写的非常好！！！</p><table><thead><tr><th>序号</th><th>名称</th></tr></thead><tbody><tr><td>1</td><td>Fade</td></tr><tr><td>2</td><td>Nevada</td></tr><tr><td>3</td><td>。。。</td></tr></tbody></table><p>懒得写了</p><p>今天突发奇想要做一个这个是因为突然又听到了Minecraft这首歌，这首歌一旦响起就会生发出无数的回忆。</p><p>但是这个板块建的还是有些问题比如无法播放vip歌曲，如果想把他们添加上去的话需要上传音乐源文件，但是sq无损音质的文件过大一首歌50mb，100首就得5个G了，这样子的话网页源文件过大不便于管理。所以要成为完全体，还是得建立一个音乐的数据库，之后再说吧，先咕咕了。</p><p>又试了下网易云音乐是可以正常播放的，但是QQ音乐不行。我真服了你了QQYY</p><h1 id="遇到的一些问题"><a href="#遇到的一些问题" class="headerlink" title="遇到的一些问题"></a>遇到的一些问题</h1><h2 id="一、npm换源"><a href="#一、npm换源" class="headerlink" title="一、npm换源"></a>一、npm换源</h2><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>运行</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-tag-aplayer</span><br></pre></td></tr></table></figure><p>的过程中会卡住，进程一直无法继续。</p><hr><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>由于我之前一直用的梯子，所以没有换过npm install的源。换成国内的镜像源就可以，但是之前的taobao源以及失效，故运行：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com/</span><br></pre></td></tr></table></figure><p>换源的具体流程可参考：<a href="https://blog.csdn.net/weixin_45610943/article/details/138140115">切换npm源的几种方法_npm换源-CSDN博客</a></p>    <div id="aplayer-FGIScPRe" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="12597348540" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"></div><p>#425AEF</p>]]></content>
     
     
       
@@ -434,56 +483,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>水一贴</title>
-    <link href="https://blog.auroraeve.com/2024/05/29/%E6%B0%B4%E4%B8%80%E8%B4%B4/"/>
-    <id>https://blog.auroraeve.com/2024/05/29/%E6%B0%B4%E4%B8%80%E8%B4%B4/</id>
-    <published>2024-05-29T00:19:59.000Z</published>
-    <updated>2024-06-27T16:39:15.452Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="WOP（水一贴）"><a href="#WOP（水一贴）" class="headerlink" title="WOP（水一贴）"></a>WOP（水一贴）</h1><p>昨晚拍的晚霞还不错，详见</p><p>清单——照片——精选——长天秋水</p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;WOP（水一贴）&quot;&gt;&lt;a href=&quot;#WOP（水一贴）&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>梦隙碎笔</title>
-    <link href="https://blog.auroraeve.com/2024/05/27/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/"/>
-    <id>https://blog.auroraeve.com/2024/05/27/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/</id>
-    <published>2024-05-27T09:50:49.000Z</published>
-    <updated>2024-05-27T09:50:49.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="梦隙碎笔"><a href="#梦隙碎笔" class="headerlink" title="梦隙碎笔"></a>梦隙碎笔</h1><p>有两样东西，越是经常而持久地对它们进行反复思考，它们就越是使心灵充满常新而日益增长的惊赞和敬畏：我头上的星空和我心中的道德法则。然而，可悲的是，物理学不存在了，创造世界的物理学不存在了，留下的只是改变世界的物理学。这个世界不是被我们创造的，我们永远地被包含在这个世界中，我们只是永恒的探索者；同样的，我们也无法毁灭这个世界，我们可能可以杀死一个人、磨碎一块石头、炸毁一个星球，但我们无法湮灭组成的物质，我们所做的只是探求已有的颜料，用这些颜料画我们的画，但没有创造颜料的能力；我们所拥有的同样也只有世界的过程，而无法逃离世界的起点与终点。我们被包含在这里，从始至终。</p><p>这个世界上只有两样东西，起点与终点和其两者之间的过程，我们只有两个选择，选择走在过程中还是痴迷的寻求起点与终点；这个世界上只有真理和爱是有意义的。而星空在我之上、真理遥不可及，我只能堕入爱的深渊，尝试着尽力去爱爱我的人，这或许是我这一生唯一的意义。</p><p>我们可以感知到的过去早已湮灭，而剩下的这两者，便只有未来与当下。未来遥远而不实在，它游离于现实之外，我们只能偶尔的瞥见它，而无法切实感受到。我们可以感受到的也不是当下，它只是过去的残留，客观现实的发生与我们的感觉之间是有延迟的，失之毫厘，差之千里。</p><p>我们无法切实地感受到现实，这或许就是我们的局限性，客观存在与主观存在的时差，我们的感受，是一切错误的来源，同样也是一切正确的来源。</p><p>如果说这个世界的一切存在都有时差：引力的传播速度与光速相同，因此引力的传递也需要时间。这意味着，如果在一个系统中没有预先存在的引力场，那么当某个物体（如太阳）突然出现时，地球上的人需要经过一段时间才能感觉到这个物体的引力作用。</p><p>那么我们所感受到的一切的存在的事物，事物的异同，一切的一切都是由时差造成的。这一段反应的时间无穷无尽，它向我们展示了它的每一个投影，这就是我们的世界。它不是无穷大、也不是无穷小，只是由于延迟，以及延迟的累计（记），才有了无穷的可能。</p><p>时间存在于我们的三维空间、四维时空。这就是我们的世界。存在高维空间、那里有无数个平行的宇宙。时间与时差建构了我们的世界，它是无穷无尽的；放到二维空间中，将其展开，无限大的平面，那个世界也是无穷无尽的。这个世界或许存在无数个维度，每个维度存在无穷无尽的固有特性。而那个固有特性只有本维空间才能感受到，那也就没有所谓无穷无尽的固有特性了。</p><p>所以我们可能根本就不是我们所定义的高等智慧生命，只是我们认为我们是高等生命而已，在我们的视角里是这样，可能在其他生物的视角里就不是了。</p><p>那么，这个世界就是我们的世界，而不是别人的世界、这个世界不是定理的世界、不是神造的世界。它存在，它就在这里，我们也在这里，没有我们自然也不会有这个我们感受到的世界，我们要做的只不过是遵从内心的道德准则，发扬我们一切的善，“顺”，顺其自然的反对我们不认同的。我们所做的也不过是做我们想做的事情而已，这个世界在我们手中，这一点是无可争议的。</p><p>我们所做的也只是我们想要去做的事情而已，信仰只是我们的理由、和借口一样。</p><p><del>（我们的认同又是从何而来的呢。</del></p><p><del>恰如其分的说，只有我们自己才能看到自己世界里牛的真实样子，所有人的眼睛看到的牛的样子都是有差异的，只不过没有人和猫看到的牛的样子的差异大罢了，但牛仍然是它本身。）</del></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;梦隙碎笔&quot;&gt;&lt;a href=&quot;#梦隙碎笔&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="梦隙碎笔" scheme="https://blog.auroraeve.com/categories/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/"/>
-    
-    
-    <category term="梦隙碎笔" scheme="https://blog.auroraeve.com/tags/%E6%A2%A6%E9%9A%99%E7%A2%8E%E7%AC%94/"/>
     
   </entry>
   
