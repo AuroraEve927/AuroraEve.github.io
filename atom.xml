@@ -6,7 +6,7 @@
   <link href="https://blog.auroraeve.com/atom.xml" rel="self"/>
   
   <link href="https://blog.auroraeve.com/"/>
-  <updated>2025-03-03T01:35:41.250Z</updated>
+  <updated>2025-04-08T10:58:10.279Z</updated>
   <id>https://blog.auroraeve.com/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人网站/博客搭建教程</title>
+    <link href="https://blog.auroraeve.com/2025/04/08/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
+    <id>https://blog.auroraeve.com/2025/04/08/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</id>
+    <published>2025-04-08T03:12:49.000Z</published>
+    <updated>2025-04-08T10:58:10.279Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="个人网站-博客搭建教程"><a href="#个人网站-博客搭建教程" class="headerlink" title="个人网站&#x2F;博客搭建教程"></a>个人网站&#x2F;博客搭建教程</h1><h1 id="blog-AuroraEve3-0"><a href="#blog-AuroraEve3-0" class="headerlink" title="blog_AuroraEve3.0"></a>blog_AuroraEve3.0</h1><p>之前以及部署好环境了</p><p>直接</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog_AuroraEve3</span><br><span class="line"><span class="built_in">cd</span> blog_AuroraEve3</span><br><span class="line">git clone <span class="literal">-b</span> main https://github.com/anzhiyu<span class="literal">-c</span>/hexo<span class="literal">-theme-anzhiyu</span>.git themes/anzhiyu</span><br></pre></td></tr></table></figure><p>打开 <strong>Hexo</strong> 根目录下的 <code>config.yml</code>, 找到以下配置项，把主题改为<code>anzhiyu</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## Plugins: https://hexo.io/plugins/</span><br><span class="line">## Themes: https://hexo.io/themes/</span><br><span class="line">theme: anzhiyu #landscape</span><br></pre></td></tr></table></figure><p>安装 pug 和 stylus 渲染插件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure><p>windows 复制<code>/themes/anzhiyu/_config.yml</code>此文件到 hexo 根目录，并重命名为<code>_config.anzhiyu.yml</code></p><p>以后如果修改任何主题配置，都只需修改 _config.anzhiyu.yml 的配置即可。</p><p>启动blog</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl;hexo g;hexo s</span><br></pre></td></tr></table></figure><p>最后更新于202503071050</p><h2 id="标签页配置"><a href="#标签页配置" class="headerlink" title="标签页配置"></a><a href="https://docs.anheyu.com/page/tags.html#%E6%A0%87%E7%AD%BE%E9%A1%B5%E9%85%8D%E7%BD%AE">标签页配置</a></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure><p>你会找到 <code>source/tags/index.md</code> 这个文件</p><p>修改这个文件： 记得添加 <code>type: &quot;tags&quot;</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2021-04-06 12:01:51</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false</span><br><span class="line">top_img: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h2 id="分类页配置"><a href="#分类页配置" class="headerlink" title="分类页配置"></a><a href="https://docs.anheyu.com/page/classify.html#%E5%88%86%E7%B1%BB%E9%A1%B5%E9%85%8D%E7%BD%AE">分类页配置</a></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure><p>你会找到 <code>source/categories/index.md</code> 这个文件</p><p>修改这个文件： 记得添加 <code>type: &quot;categories&quot;</code></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2022-02-23 17:56:00</span><br><span class="line">aside: false</span><br><span class="line">top_img: false</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>内置阿里图标库：<a href="https://www.iconfont.cn/collections/detail?cid=44481">https://www.iconfont.cn/collections/detail?cid=44481</a></p><h2 id="服务器选择"><a href="#服务器选择" class="headerlink" title="服务器选择"></a>服务器选择</h2><p><a href="https://docs.qq.com/document/DV0RCS0lGeHdMTFFV?tab=000003">2025-云服务器专区 京东云 阿里云 腾讯云 配置最新价格表 与 官方活动地址.xlsx</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;个人网站-博客搭建教程&quot;&gt;&lt;a href=&quot;#个人网站-博客搭建教程&quot; class=&quot;headerlink&quot; title=&quot;个人网站&amp;#x2F;博客搭建教程&quot;&gt;&lt;/a&gt;个人网站&amp;#x2F;博客搭建教程&lt;/h1&gt;&lt;h1</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>26打卡day</title>
+    <link href="https://blog.auroraeve.com/2025/03/25/26%E6%89%93%E5%8D%A1day/"/>
+    <id>https://blog.auroraeve.com/2025/03/25/26%E6%89%93%E5%8D%A1day/</id>
+    <published>2025-03-25T08:41:32.000Z</published>
+    <updated>2025-03-25T08:46:26.053Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="day0"><a href="#day0" class="headerlink" title="day0"></a>day0</h1><p>20250325</p><p>学习了论文中的matlab3D建模部分，并将源代码创建为matlab脚本</p><p>matlab插值三维地形数据绘制各种二维三维图形</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;day0&quot;&gt;&lt;a href=&quot;#day0&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>CET6</title>
@@ -67,9 +113,9 @@
     <link href="https://blog.auroraeve.com/2025/02/24/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6%E4%B9%B1%E6%96%97%E3%80%81/"/>
     <id>https://blog.auroraeve.com/2025/02/24/%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6%E4%B9%B1%E6%96%97%E3%80%81/</id>
     <published>2025-02-24T08:15:50.000Z</published>
-    <updated>2025-02-24T09:15:37.398Z</updated>
+    <updated>2025-04-07T08:11:04.946Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="乱斗胜利"><a href="#乱斗胜利" class="headerlink" title="乱斗胜利"></a>乱斗胜利</h1><p><img src="https://bu.dusays.com/2025/02/24/67bc2ad056764.png" alt="image-20250224161605308"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="乱斗胜利"><a href="#乱斗胜利" class="headerlink" title="乱斗胜利"></a>乱斗胜利</h1><p><img src="https://bu.dusays.com/2025/02/24/67bc2ad056764.png" alt="image-20250224161605308"></p><p><img src="https://bu.dusays.com/2025/03/09/67cdaf5d17640.png" alt="image-20250309231016344"></p><p><img src="https://bu.dusays.com/2025/03/13/67d29c5dbc41a.png" alt="image-20250313165031595"></p><p><img src="https://bu.dusays.com/2025/03/21/67dd5227ae174.png" alt="image-20250321194850590"></p><p><img src="https://bu.dusays.com/2025/03/23/67df9a3879021.png" alt="image-20250323132051930"></p><p>202503271159</p><p><img src="https://bu.dusays.com/2025/03/27/67e4ccf2a105d.png" alt="image-20250327115841274"></p><p><img src="https://bu.dusays.com/2025/03/28/67e6c0a2852b2.png" alt="image-20250328233037150"></p><p>202503301709</p><p><img src="https://bu.dusays.com/2025/03/30/67e90a3e4048c.png" alt="image-20250330170915942"></p><p><img src="https://bu.dusays.com/2025/04/02/67ed41317af7e.png" alt="image-20250402215248169"></p><p>202504032041</p><p><img src="https://bu.dusays.com/2025/04/03/67ee821eecd77.png" alt="image-20250403204203469"></p><p><img src="https://bu.dusays.com/2025/04/07/67f3889339134.png" alt="image-20250407161052141"></p>]]></content>
     
     
       
@@ -90,9 +136,9 @@
     <link href="https://blog.auroraeve.com/2025/02/21/%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E4%B8%80%E6%9C%AC%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%91%84%E5%BD%B1%E4%BD%9C%E5%93%81%E9%9B%86/"/>
     <id>https://blog.auroraeve.com/2025/02/21/%E5%A6%82%E4%BD%95%E5%88%B6%E4%BD%9C%E4%B8%80%E6%9C%AC%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E6%91%84%E5%BD%B1%E4%BD%9C%E5%93%81%E9%9B%86/</id>
     <published>2025-02-21T02:19:55.000Z</published>
-    <updated>2025-02-25T14:26:51.347Z</updated>
+    <updated>2025-03-11T08:08:05.601Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近越来越想做一本属于自己的摄影集了，<br>参考<a href="https://www.bilibili.com/video/BV1wt4y1Y7ch/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">如何制作一本属于自己的摄影作品集</a>这个视频教程，以及沃克·埃文斯 : 美国影像 : American photographs还有Links的摄影集。<br>对自己所拍的照片做一个总结，末尾举一些好朋友的照片。</p><p>立一个flag吧，今年生日（2025年10月22日）之前做完，给自己的生日礼物。</p><p>In Design</p><p><a href="https://www.bilibili.com/video/BV1fs4y1j7Et?spm_id_from=333.788.recommend_more_video.0&vd_source=851eb39e369398dfd488218128ad07b6">如何做一本书｜做图像书的前中后期｜摄影作品</a></p><p><a href="https://www.bilibili.com/video/BV1Pg411B7qu/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">写一本书送给21岁的自己 | 用3年自制一本画册 | 摄影集_哔哩哔哩_bilibili</a></p><p><a href="https://www.bilibili.com/video/BV1Vg411y7QH/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">我把自己拍的照片做成了影集_哔哩哔哩_bilibili</a>230*230mm</p><p><a href="https://www.bilibili.com/video/BV1uB4y1Z7xT/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">【阿里】仅需2分钟，建立你的“专属照片网站”，免费白嫖！用息流制作摄影集教程！_哔哩哔哩_bilibili</a></p><h1 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h1><h2 id="尺寸"><a href="#尺寸" class="headerlink" title="尺寸"></a>尺寸</h2><p>我的尺寸选择：230mm×230mm方形，3mm出血；预计在淘宝店：苦马艺术 CoMA art 做打印。（20250221）</p><!--Links的冰岛异世界旅行尺寸大小：开本787×10921/12，内容总页数243页（不包括空白页）--><!--封面-空白页-封面图1-格式页2-前言3-结语243-空白页-封面--><!--沃克·埃文斯 : 美国影像 : American photographs的大小：开本710×10001/12；--><!--3mm出血--><!--850mm×1168mm1/32--><h2 id="取名-Allusion"><a href="#取名-Allusion" class="headerlink" title="取名|Allusion"></a>取名|Allusion</h2><p>Allusion，远方摄影集（20250225）</p><!--英文翻译  诗和远方 - 阎栎淼的回答 - 知乎https://www.zhihu.com/question/56835202/answer/151117519 --><h2 id="照片的排版与顺序"><a href="#照片的排版与顺序" class="headerlink" title="照片的排版与顺序"></a>照片的排版与顺序</h2><p>采用时间&#x2F;路线类</p><h2 id="模板大全"><a href="#模板大全" class="headerlink" title="模板大全"></a>模板大全</h2><p><a href="https://www.bilibili.com/video/BV1VT411v7VY?spm_id_from=333.788.recommend_more_video.1&vd_source=851eb39e369398dfd488218128ad07b6">作品集排版源文件（保姆版教程）！光速完成面试作品集，送源文件_哔哩哔哩_bilibili</a></p><p><a href="https://www.bilibili.com/video/BV12M411j78K?spm_id_from=333.788.recommend_more_video.0&vd_source=851eb39e369398dfd488218128ad07b6">作品集（保姆级模板）_哔哩哔哩_bilibili</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近越来越想做一本属于自己的摄影集了，<br>参考<a href="https://www.bilibili.com/video/BV1wt4y1Y7ch/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">如何制作一本属于自己的摄影作品集</a>这个视频教程，以及沃克·埃文斯 : 美国影像 : American photographs还有Links的摄影集。<br>对自己所拍的照片做一个总结，末尾举一些好朋友的照片。</p><p>立一个flag吧，今年生日（2025年10月22日）之前做完，给自己的生日礼物。</p><p>In Design</p><p><a href="https://www.bilibili.com/video/BV1fs4y1j7Et?spm_id_from=333.788.recommend_more_video.0&vd_source=851eb39e369398dfd488218128ad07b6">如何做一本书｜做图像书的前中后期｜摄影作品</a></p><p><a href="https://www.bilibili.com/video/BV1Pg411B7qu/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">写一本书送给21岁的自己 | 用3年自制一本画册 | 摄影集_哔哩哔哩_bilibili</a></p><p><a href="https://www.bilibili.com/video/BV1Vg411y7QH/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">我把自己拍的照片做成了影集_哔哩哔哩_bilibili</a>230*230mm</p><p><a href="https://www.bilibili.com/video/BV1uB4y1Z7xT/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">【阿里】仅需2分钟，建立你的“专属照片网站”，免费白嫖！用息流制作摄影集教程！_哔哩哔哩_bilibili</a></p><h1 id="制作过程"><a href="#制作过程" class="headerlink" title="制作过程"></a>制作过程</h1><h2 id="尺寸"><a href="#尺寸" class="headerlink" title="尺寸"></a>尺寸</h2><p>我的尺寸选择：230mm×230mm方形，3mm出血；预计在淘宝店：苦马艺术 CoMA art 做打印。（20250221）</p><!--Links的冰岛异世界旅行尺寸大小：开本787×10921/12，内容总页数243页（不包括空白页）--><!--封面-空白页-封面图1-格式页2-前言3-结语243-空白页-封面--><!--沃克·埃文斯 : 美国影像 : American photographs的大小：开本710×10001/12；--><!--3mm出血--><!--850mm×1168mm1/32--><h2 id="取名-Allusion"><a href="#取名-Allusion" class="headerlink" title="取名|Allusion"></a>取名|Allusion</h2><p>Allusion，远方摄影集（20250225）</p><p>字体选择TrajanPro Bold 36点</p><p>标语选择Gill Sans MT Italic 18点</p><p><img src="https://bu.dusays.com/2025/03/11/67cfef6160b2e.png" alt="image-20250311160800246"></p><p>（20250311）</p><!--英文翻译  诗和远方 - 阎栎淼的回答 - 知乎https://www.zhihu.com/question/56835202/answer/151117519 --><h2 id="照片的排版与顺序"><a href="#照片的排版与顺序" class="headerlink" title="照片的排版与顺序"></a>照片的排版与顺序</h2><p>采用时间&#x2F;路线类</p><h2 id="模板大全"><a href="#模板大全" class="headerlink" title="模板大全"></a>模板大全</h2><p><a href="https://www.bilibili.com/video/BV1VT411v7VY?spm_id_from=333.788.recommend_more_video.1&vd_source=851eb39e369398dfd488218128ad07b6">作品集排版源文件（保姆版教程）！光速完成面试作品集，送源文件_哔哩哔哩_bilibili</a></p><p><a href="https://www.bilibili.com/video/BV12M411j78K?spm_id_from=333.788.recommend_more_video.0&vd_source=851eb39e369398dfd488218128ad07b6">作品集（保姆级模板）_哔哩哔哩_bilibili</a></p>]]></content>
     
     
       
@@ -161,9 +207,9 @@
     <link href="https://blog.auroraeve.com/2025/02/20/%E8%B7%9F%E6%88%91150%E5%A4%A9%E7%AC%94%E8%AE%B0/"/>
     <id>https://blog.auroraeve.com/2025/02/20/%E8%B7%9F%E6%88%91150%E5%A4%A9%E7%AC%94%E8%AE%B0/</id>
     <published>2025-02-20T08:25:02.000Z</published>
-    <updated>2025-02-22T05:35:58.503Z</updated>
+    <updated>2025-03-11T04:47:35.899Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="跟我150天"><a href="#跟我150天" class="headerlink" title="跟我150天"></a>跟我150天</h1><h2 id="P4"><a href="#P4" class="headerlink" title="P4"></a>P4</h2><p><img src="https://bu.dusays.com/2025/02/20/67b6e7718c4d0.png" alt="image-20250220162728848"></p><p><img src="https://bu.dusays.com/2025/02/20/67b6e7c734580.png" alt="image-20250220162853306"></p><h2 id="P5"><a href="#P5" class="headerlink" title="P5"></a>P5</h2><p>涉及到面get on&#x2F;&#x2F;get off公交车，飞机，地铁，自行车，胳膊</p><p>涉及到空间get in&#x2F;&#x2F;get out of出租车，私家车</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="跟我150天"><a href="#跟我150天" class="headerlink" title="跟我150天"></a>跟我150天</h1><h2 id="P4"><a href="#P4" class="headerlink" title="P4"></a>P4</h2><p><img src="https://bu.dusays.com/2025/02/20/67b6e7718c4d0.png" alt="image-20250220162728848"></p><p><img src="https://bu.dusays.com/2025/02/20/67b6e7c734580.png" alt="image-20250220162853306"></p><h2 id="P5"><a href="#P5" class="headerlink" title="P5"></a>P5</h2><p>涉及到面get on&#x2F;&#x2F;get off公交车，飞机，地铁，自行车，胳膊</p><p>涉及到空间get in&#x2F;&#x2F;get out of出租车，私家车</p><h2 id="P10"><a href="#P10" class="headerlink" title="P10"></a>P10</h2><p><img src="https://bu.dusays.com/2025/03/11/67cfc064383f2.png" alt="image-20250311124728864"></p>]]></content>
     
     
       
@@ -411,7 +457,7 @@
     <published>2024-10-19T02:42:44.000Z</published>
     <updated>2024-10-28T07:57:21.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>寻找自己的25号底片，重拾热爱与勇气。</p><p>这里列举了一些常常忘记的非常重要的设置，已经一些摄影小科普。</p></blockquote><h1 id="日常翻看"><a href="#日常翻看" class="headerlink" title="日常翻看"></a>日常翻看</h1><ol><li>Z6II的双原生ISO：拍照 800；视频 6400；</li><li>延时摄影记得关闭防抖，还有记得把色温设为恒定值。</li><li>4800K白平衡是所见即所得。</li><li>滤镜是可以层叠层安装的，比如PCL偏振镜可以直接通过螺纹联接到UV镜上，所以UV镜可以焊死在镜头上了，按需安装PCL偏振镜和ND镜。</li></ol><h1 id="小教程"><a href="#小教程" class="headerlink" title="小教程"></a>小教程</h1><h2 id="如何制作属于自己的摄影集"><a href="#如何制作属于自己的摄影集" class="headerlink" title="如何制作属于自己的摄影集"></a>如何制作属于自己的摄影集</h2><p><a href="https://www.bilibili.com/video/BV1wt4y1Y7ch/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">如何制作一本属于自己的摄影作品集｜干货分享｜照片的选择和排版｜书籍封面设计｜打印装订出书_哔哩哔哩_bilibili</a></p><h2 id="延时摄影"><a href="#延时摄影" class="headerlink" title="延时摄影"></a>延时摄影</h2><h3 id="拍摄"><a href="#拍摄" class="headerlink" title="拍摄"></a>拍摄</h3><p><a href="https://www.bilibili.com/video/BV1ty4y1778v/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">可能是全网最详细的银河拍摄教程（上）_哔哩哔哩_bilibili</a></p><h3 id="后期"><a href="#后期" class="headerlink" title="后期"></a>后期</h3><p><a href="https://www.bilibili.com/video/BV1Lh4y1Z7Pk/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">【银河拱桥处理经验】拍摄&#x2F;接片&#x2F;后期-apsc半画幅a6400无改机无赤道仪拍摄_哔哩哔哩_bilibili</a></p><p><a href="https://www.bilibili.com/video/BV1PpS4Y2EwN/?spm_id_from=333.1007.tianma.2-2-5.click&vd_source=851eb39e369398dfd488218128ad07b6">调色福利！尼康子公司RED亲自调试5款质感LUT使用教程！_哔哩哔哩_bilibili</a></p><h2 id="微距摄影"><a href="#微距摄影" class="headerlink" title="微距摄影"></a>微距摄影</h2><h2 id="预设收集"><a href="#预设收集" class="headerlink" title="预设收集"></a>预设收集</h2><p><a href="https://nikonpc.com/">Nikon Picture Control Editor</a></p><h2 id="照片添加水印"><a href="#照片添加水印" class="headerlink" title="照片添加水印"></a>照片添加水印</h2><h3 id="脚本一键添加"><a href="#脚本一键添加" class="headerlink" title="脚本一键添加"></a>脚本一键添加</h3><p>1、Semi-Utils</p><p><a href="https://github.com/leslievan/semi-utils">leslievan&#x2F;semi-utils: 一个批量添加相机机型和拍摄参数的工具，后续「可能」添加其他功能。 (github.com)</a></p><p><a href="https://www.bilibili.com/video/BV11A411U7Kn/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">【Semi-Utils】一键为批量照片添加水印、相框，机型、厂商和拍摄参数_哔哩哔哩_bilibili</a></p><p>2、壹印</p><p><a href="https://github.com/ggchivalrous/yiyin">ggchivalrous&#x2F;yiyin: 一款照片水印添加工具 (github.com)</a></p><h3 id="LRC添加"><a href="#LRC添加" class="headerlink" title="LRC添加"></a>LRC添加</h3><p><a href="https://www.bilibili.com/video/BV1hy42187Fn/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">【摄影教程】用lightroom给照片批量添加小白条边框水印_哔哩哔哩_bilibili</a></p><h1 id="小科普"><a href="#小科普" class="headerlink" title="小科普"></a>小科普</h1><h2 id="最大放大倍率"><a href="#最大放大倍率" class="headerlink" title="最大放大倍率"></a>最大放大倍率</h2><p>[<a href="https://www.bilibili.com/video/BV1z4411B7rE/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">小鲜影室] ep30 - 干货芝士，了解镜头最大放大倍率_哔哩哔哩_bilibili</a></p><h2 id="机身镜头那个会画质影响更大"><a href="#机身镜头那个会画质影响更大" class="headerlink" title="机身镜头那个会画质影响更大"></a>机身镜头那个会画质影响更大</h2><p><a href="https://www.bilibili.com/video/BV1ji1aYBEVJ/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=851eb39e369398dfd488218128ad07b6">万元相机+百元镜头 VS 万元镜头+千元相机！谁的画质会更好？相机&amp;镜头，究竟哪个更重要？_哔哩哔哩_bilibili</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>寻找自己的25号底片，重拾热爱与勇气。</p><p>这里列举了一些常常忘记的非常重要的设置，已经一些摄影小科普。</p></blockquote><h1 id="日常翻看"><a href="#日常翻看" class="headerlink" title="日常翻看"></a>日常翻看</h1><ol><li>Z6II的双原生ISO：拍照 800；视频 6400；</li><li>延时摄影记得关闭防抖，还有记得把色温设为恒定值。</li><li>4800K白平衡是所见即所得。</li><li>滤镜是可以层叠层安装的，比如PCL偏振镜可以直接通过螺纹联接到UV镜上，所以UV镜可以焊死在镜头上了，按需安装PCL偏振镜和ND镜。</li></ol><h1 id="小教程"><a href="#小教程" class="headerlink" title="小教程"></a>小教程</h1><h2 id="如何制作属于自己的摄影集"><a href="#如何制作属于自己的摄影集" class="headerlink" title="如何制作属于自己的摄影集"></a>如何制作属于自己的摄影集</h2><p><a href="https://www.bilibili.com/video/BV1wt4y1Y7ch/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">如何制作一本属于自己的摄影作品集｜干货分享｜照片的选择和排版｜书籍封面设计｜打印装订出书_哔哩哔哩_bilibili</a></p><h2 id="星轨摄影"><a href="#星轨摄影" class="headerlink" title="星轨摄影"></a>星轨摄影</h2><p><a href="https://www.bilibili.com/video/BV1QT4Ue2Eju/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">【星轨后期】五分钟教你制作星轨照片与视频_哔哩哔哩_bilibili</a></p><h2 id="银河-拱桥"><a href="#银河-拱桥" class="headerlink" title="银河&amp;拱桥"></a>银河&amp;拱桥</h2><h3 id="拍摄"><a href="#拍摄" class="headerlink" title="拍摄"></a>拍摄</h3><p><a href="https://www.bilibili.com/video/BV1ty4y1778v/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">可能是全网最详细的银河拍摄教程（上）_哔哩哔哩_bilibili</a></p><h3 id="后期"><a href="#后期" class="headerlink" title="后期"></a>后期</h3><p><a href="https://www.bilibili.com/video/BV1Lh4y1Z7Pk/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">【银河拱桥处理经验】拍摄&#x2F;接片&#x2F;后期-apsc半画幅a6400无改机无赤道仪拍摄_哔哩哔哩_bilibili</a></p><p><a href="https://www.bilibili.com/video/BV1PpS4Y2EwN/?spm_id_from=333.1007.tianma.2-2-5.click&vd_source=851eb39e369398dfd488218128ad07b6">调色福利！尼康子公司RED亲自调试5款质感LUT使用教程！_哔哩哔哩_bilibili</a></p><h2 id="微距摄影"><a href="#微距摄影" class="headerlink" title="微距摄影"></a>微距摄影</h2><h2 id="预设收集"><a href="#预设收集" class="headerlink" title="预设收集"></a>预设收集</h2><p><a href="https://nikonpc.com/">Nikon Picture Control Editor</a></p><h2 id="照片添加水印"><a href="#照片添加水印" class="headerlink" title="照片添加水印"></a>照片添加水印</h2><h3 id="脚本一键添加"><a href="#脚本一键添加" class="headerlink" title="脚本一键添加"></a>脚本一键添加</h3><p>1、Semi-Utils</p><p><a href="https://github.com/leslievan/semi-utils">leslievan&#x2F;semi-utils: 一个批量添加相机机型和拍摄参数的工具，后续「可能」添加其他功能。 (github.com)</a></p><p><a href="https://www.bilibili.com/video/BV11A411U7Kn/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">【Semi-Utils】一键为批量照片添加水印、相框，机型、厂商和拍摄参数_哔哩哔哩_bilibili</a></p><p>2、壹印</p><p><a href="https://github.com/ggchivalrous/yiyin">ggchivalrous&#x2F;yiyin: 一款照片水印添加工具 (github.com)</a></p><h3 id="LRC添加"><a href="#LRC添加" class="headerlink" title="LRC添加"></a>LRC添加</h3><p><a href="https://www.bilibili.com/video/BV1hy42187Fn/?spm_id_from=333.337.search-card.all.click&vd_source=851eb39e369398dfd488218128ad07b6">【摄影教程】用lightroom给照片批量添加小白条边框水印_哔哩哔哩_bilibili</a></p><h1 id="小科普"><a href="#小科普" class="headerlink" title="小科普"></a>小科普</h1><h2 id="最大放大倍率"><a href="#最大放大倍率" class="headerlink" title="最大放大倍率"></a>最大放大倍率</h2><p>[<a href="https://www.bilibili.com/video/BV1z4411B7rE/?spm_id_from=333.999.0.0&vd_source=851eb39e369398dfd488218128ad07b6">小鲜影室] ep30 - 干货芝士，了解镜头最大放大倍率_哔哩哔哩_bilibili</a></p><h2 id="机身镜头那个会画质影响更大"><a href="#机身镜头那个会画质影响更大" class="headerlink" title="机身镜头那个会画质影响更大"></a>机身镜头那个会画质影响更大</h2><p><a href="https://www.bilibili.com/video/BV1ji1aYBEVJ/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=851eb39e369398dfd488218128ad07b6">万元相机+百元镜头 VS 万元镜头+千元相机！谁的画质会更好？相机&amp;镜头，究竟哪个更重要？_哔哩哔哩_bilibili</a></p>]]></content>
     
     
       
@@ -419,53 +465,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>qt学习笔记</title>
-    <link href="https://blog.auroraeve.com/2024/10/11/qt%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>https://blog.auroraeve.com/2024/10/11/qt%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
-    <published>2024-10-11T02:31:10.000Z</published>
-    <updated>2024-12-06T03:17:30.874Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="QT学习笔记"><a href="#QT学习笔记" class="headerlink" title="QT学习笔记"></a>QT学习笔记</h1><p><a href="https://www.bilibili.com/video/BV1Vt4y1n7us?spm_id_from=333.788.videopod.sections&vd_source=851eb39e369398dfd488218128ad07b6">1.VS下开发Qt应用环境搭建_哔哩哔哩_bilibili</a></p><h1 id="一些约定"><a href="#一些约定" class="headerlink" title="一些约定"></a>一些约定</h1><p>软件环境版本号：VS2019；QT：5.13.2；opencv：3.4.0-vc14_vc15</p><p>项目——属性——常规——输出目录：..\Bin\</p><p>​——调试——工作目录：..\Bin\</p><p>引入OpenCV库文件</p><p>QT预览Ctrl+R</p><h1 id="主要函数"><a href="#主要函数" class="headerlink" title="主要函数"></a>主要函数</h1><h2 id="Label"><a href="#Label" class="headerlink" title="Label"></a>Label</h2><ol><li><p>显示汉字</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ui.labelPicture-&gt;<span class="built_in">setText</span>(QString::<span class="built_in">fromLocal8Bit</span>(<span class="string">&quot;Qt显示汉字&quot;</span>));</span><br></pre></td></tr></table></figure></li><li><p>显示图片</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">    <span class="comment">//路径全英文</span></span><br><span class="line">    <span class="function">QPixmap <span class="title">pixPic2show</span><span class="params">(<span class="string">&quot;D:\\myfile\\project\\Rubik-s-Cube-Robot\\source\\img\\111.jpg&quot;</span>)</span></span>;</span><br><span class="line">    ui.labelPicture-&gt;<span class="built_in">setPixmap</span>(pixPic2show);</span><br><span class="line">    <span class="comment">//如果路径有中文</span></span><br><span class="line">    <span class="function">QPixmap <span class="title">pixPic2show</span><span class="params">(QString::fromLocal8Bit(<span class="string">&quot;D:\\myfile\\project\\Rubik-s-Cube-Robot\\source\\img\\魔方背景.jpg&quot;</span>))</span></span>;</span><br><span class="line">    ui.labelPicture-&gt;<span class="built_in">setPixmap</span>(pixPic2show);</span><br><span class="line"></span><br><span class="line"><span class="comment">//  beifen</span></span><br><span class="line">    ui.labelPicture-&gt;<span class="built_in">setText</span>(QString::<span class="built_in">fromLocal8Bit</span>(<span class="string">&quot;Qt显示汉字&quot;</span>));</span><br><span class="line">    <span class="function">QImage <span class="title">imgPic2show</span><span class="params">(QString::fromLocal8Bit(<span class="string">&quot;D:\\myfile\\project\\Rubik-s-Cube-Robot\\source\\img\\魔方背景.jpg&quot;</span>))</span></span>;   <span class="comment">//引用图片</span></span><br><span class="line">    <span class="keyword">auto</span> sizelabelPicture = ui.labelPicture-&gt;<span class="built_in">size</span>();</span><br><span class="line">    imgPic2show=imgPic2show.<span class="built_in">scaled</span>(ui.labelPicture-&gt;<span class="built_in">size</span>(),Qt::KeepAspectRatio);    <span class="comment">//固定宽高比</span></span><br><span class="line"></span><br><span class="line">    QPixmap pixPic2show=QPixmap::<span class="built_in">fromImage</span>(imgPic2show);    <span class="comment">//转换格式</span></span><br><span class="line">    ui.labelPicture-&gt;<span class="built_in">setPixmap</span>(pixPic2show);       <span class="comment">//显示图片</span></span><br></pre></td></tr></table></figure></li></ol><h2 id="Botton"><a href="#Botton" class="headerlink" title="Botton"></a>Botton</h2><p><a href="https://blog.csdn.net/shenlaoli/article/details/128681032">QT使用按钮打开新窗口_qt点击按钮弹出另一个界面-CSDN博客</a></p><p><a href="https://blog.csdn.net/qq_58744641/article/details/128837479">QT—制作简易串口助手_qt编写串口助手-CSDN博客</a></p><p><a href="https://blog.csdn.net/weixin_43742616/article/details/113352522">Qt多界面使用串口收发数据_qt串口通信,数据发给其他多个类使用-CSDN博客</a></p><p><a href="https://blog.csdn.net/Fourier_1024/article/details/113517982?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-113517982-blog-140586898.235%5Ev43%5Epc_blog_bottom_relevance_base4&spm=1001.2101.3001.4242.1&utm_relevant_index=2">qt 指示灯 状态灯 红绿灯 LED灯：使用QLabel实现_qt界面ui设计指示灯-CSDN博客</a></p><p><a href="https://blog.csdn.net/u011436603/article/details/136328306">QT摄像头采集_qt摄像头采集数据-CSDN博客</a></p><p><a href="https://www.bilibili.com/video/BV17BDvYaEDv/?vd_source=851eb39e369398dfd488218128ad07b6">QT中的摄像头拍摄保存画面_哔哩哔哩_bilibili</a></p><p><a href="https://www.bilibili.com/video/BV1iL4y1P78V/?vd_source=851eb39e369398dfd488218128ad07b6">用qt打开自己电脑摄像头并截屏摄像头图像。_哔哩哔哩_bilibili</a></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;QT学习笔记&quot;&gt;&lt;a href=&quot;#QT学习笔记&quot; class=&quot;headerlink&quot; title=&quot;QT学习笔记&quot;&gt;&lt;/a&gt;QT学习笔记&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>今日小记2</title>
-    <link href="https://blog.auroraeve.com/2024/10/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B02/"/>
-    <id>https://blog.auroraeve.com/2024/10/06/%E4%BB%8A%E6%97%A5%E5%B0%8F%E8%AE%B02/</id>
-    <published>2024-10-06T07:56:40.000Z</published>
-    <updated>2024-10-06T08:02:57.005Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="今日小记（二）"><a href="#今日小记（二）" class="headerlink" title="今日小记（二）"></a>今日小记（二）</h1><p>原来心情也是有晴🌤和雨🌦️的，今天又感受到了许久未感受到的无力感。</p><p><a href="https://apod.nasa.gov/apod/image/2409/HeartMelotte_McInnis_1513.jpg">Edge Image Viewer (nasa.gov)</a></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;今日小记（二）&quot;&gt;&lt;a href=&quot;#今日小记（二）&quot; class=&quot;headerlink&quot; title=&quot;今日小记（二）&quot;&gt;&lt;/a&gt;今日小记（二）&lt;/h1&gt;&lt;p&gt;原来心情也是有晴🌤和雨🌦️的，今天又感受到了许久未感受到的无力感。&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
         
       
     
